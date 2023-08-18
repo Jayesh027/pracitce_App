@@ -1,11 +1,11 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+//import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router'
 
 const LogInData = () => {
     const navigate = useNavigate()
 
-  const login = useSelector(state => state.login)
+  //const login = useSelector(state => state.login)
     
   return (
     <div>
